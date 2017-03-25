@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0025DFB41E86373900DD2A26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0025DFB31E86373900DD2A26 /* main.cpp */; };
+		0025DFBB1E86376400DD2A26 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0025DFBA1E86376400DD2A26 /* Location.cpp */; };
+		0025DFBF1E8637CF00DD2A26 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0025DFBE1E8637CF00DD2A26 /* Map.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0025DFB01E86373900DD2A26 /* Lab_Map_ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab_Map_; sourceTree = BUILT_PRODUCTS_DIR; };
 		0025DFB31E86373900DD2A26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0025DFBA1E86376400DD2A26 /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		0025DFBC1E86378300DD2A26 /* Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		0025DFBD1E8637A100DD2A26 /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		0025DFBE1E8637CF00DD2A26 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0025DFB31E86373900DD2A26 /* main.cpp */,
+				0025DFBA1E86376400DD2A26 /* Location.cpp */,
+				0025DFBC1E86378300DD2A26 /* Location.h */,
+				0025DFBD1E8637A100DD2A26 /* Map.h */,
+				0025DFBE1E8637CF00DD2A26 /* Map.cpp */,
 			);
 			path = Lab_Map_;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0025DFBF1E8637CF00DD2A26 /* Map.cpp in Sources */,
+				0025DFBB1E86376400DD2A26 /* Location.cpp in Sources */,
 				0025DFB41E86373900DD2A26 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
